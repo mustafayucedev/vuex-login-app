@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-block-start: 50px;
+  border: 1px solid #eaeaea;
+  padding: 15px;
+}
+
+.alert-danger {
+  background-color: #ed5249;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-block-start: 15px;
+}
+
+.alert-succsess {
+  background-color: #4bb543;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-block-start: 15px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+.login input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  color: #999;
+  transition: ease-in-out all 0.3s;
+}
+
+.login input::placeholder {
+  color: #999;
+}
+
+.login input:focus {
+  border-color: #999;
+  color: #000;
+}
+
+.login button,
+.button {
+    display: block;
+    width: 100%;
+    background-color: #4bb543;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    padding-block: 10px;
+    margin-block-start: 15px;
+}
+
+.logout {
+    background-color: #ed5249;
+}
+
+.mb-15 {
+  margin-block-end: 15px;
+}
